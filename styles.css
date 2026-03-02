@@ -1,0 +1,25 @@
+/* Calculator - Foundations Final Project */
+/* Goal: Style a functional on-screen calculator */
+
+/* TODO: How will you center the calculator on the page? */
+
+/* TODO: What styles does the display need?
+   THINK: Font size, background color, text alignment, min-height? */
+
+/* TODO: How will you lay out the buttons in a grid?
+   HINT: CSS Grid might be very useful here */
+
+/* TODO: What should buttons look like?
+   THINK: Size, font, cursor, hover effect */
+
+/* EDGE CASE: What if a number is too long to fit in the display? */
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+output {
+  border: 1px solid black;
+  width: 10%;
+}
