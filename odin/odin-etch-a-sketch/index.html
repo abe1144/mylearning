@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <div class="side"></div>
+      <div class="outside">
+        <h1>Etch-a-Sketch</h1>
+        <div class="controls">
+          <div class="resize">
+            <label for="random">
+              <span>Rainbow Mode:</span>
+              <input type="checkbox" id="random" />
+            </label>
+            <label for="darkening">
+              <span>Progressive Darkening Mode:</span>
+              <input type="checkbox" id="darkening" />
+            </label>
+            <label for="myRange">Size:</label>
+            <input type="range" min="1" max="100" value="16" id="square-size" />
+            <output for="myRange" id="sliderValue"></output>
+            <button id="clear">Clear</button>
+          </div>
+        </div>
+
+        <div class="container"></div>
+        <div class="knob-container">
+          <div class="knobs"></div>
+          <div class="knobs"></div>
+        </div>
+      </div>
+
+      <div class="side"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
